@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body{
+    background-color: #F5F5F5;
+    height: 4040px;
+    color: #464646;
+}
+
+/* --- HEADER --- */
+.caja{
+    width: 1136px;
+    height: 88px;
+    position: relative;
+    margin: 0 auto;
+    font-family: "Raleway";
+    font-size: 16px;
+    
+}
+
+.encabezado{
+    font-weight: bold;   
+    position: absolute;
+    top: 36px;
+}
+
+.encabezado img{
+    width: 16px; 
+    height: 16px;
+    position: relative;
+    left: 0%;
+    right: 4.17%;
+    top: 4.17%;
+    bottom: 62.5%;
+}
+
+#estrella-pequena-superior{
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+
+#estrella-pequena-inferior{
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+nav{
+    position: absolute;
+    top: 36px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 32px;    
+}
+
+nav li a{
+    text-decoration: none;
+    color: #464646;
+}
+
+#email{
+    font-weight: bold;
+}
+
+/* --- PRESENTACIÓN --- */
+.presentacion{
+    width: 1136px;
+    height: 368px;
+    margin: 0 auto;
+}
+
+.lista-presentacion li{
+    padding-top: 40px;
+    padding-bottom: 26.5px;
+    margin-right: 385px;
+}
+
+#nombre-actividad{
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+#profesion-actividad{
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+.links-redes{
+    width: 78px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: "Raleway";
+}
+
+.links-redes .redes{
+    display:-webkit-inline-box;
+    margin-left: 0px;
+    font-style: "Raleway";
+}
+
+.links-redes img{
+    width: 10px;
+    height: 10px;
+    margin-left: 3px;
+}
+
+.redes a{
+    text-decoration: none;
+    color:#464646;
+}
+
+.redes p{
+    margin-right: 32.69px;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: "Raleway";
+}
+
+.imagen-perfil{
+    width: 368px;
+    height: 368px;
+    float: right;
+    border-radius: 50%
+}
+
+/* --- SOBRE MI --- */
+.sobre-mi{
+    width: 1136px;
+    position: relative;
+    background: #EAF2FD;
+    margin: 0 auto;
+    font-family: "Raleway";
+    padding: 64px 106px;
+    
+}
+
+h3{
+    font-family: "Raleway";
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.sobre-mi p{
+    width: 751px;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 16px 0px;
+}
+
+#firma{
+    width: 140px;
+    height: 52px;
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+
+/* --- SKILLS Y HOBBIES --- */
+.skills, .hobbies{
+    width: 1136px;
+    height: 348px;
+    font-family: "Raleway";
+    margin: 0 auto;
+    text-align: center;
+    padding: 32px 0px;
+    box-sizing: border-box;
+}
+
+.skills li, .hobbies li{
+    display: inline-block;    
+}
+
+.iconos{
+    height: 174px;
+    width: 176px;
+    background-color: white;
+    margin-top: 16px;
+    
+}
+
+.iconos img{
+    height: 42px;
+    width: 42px;
+    margin-top: 99.32px;
+    margin-left: -120px;  
+}
+
+.iconos p{
+    margin-left: 16px;
+    text-align: left;
+}
+
+/* --- FORMACIÓN ACADÉMICA --- */
+.formacion{
+    width: 1136px;
+    height: 430px;
+    font-family: "Raleway";
+    margin: 0 auto;
+    background-color: #EAF2FD;
+    text-align: center;
+    padding: 82px 106px;   
+}   
+
+.formacion li{
+    display: inline-block;    
+}
+
+.icofor{
+    height: 286px;
+    width: 368px;
+    background-color: white;
+    margin-top: 16px;
+    margin-right: 6 px;
+}
+
+.icofor img{
+    height: 130px;
+    width: 190px;
+    padding: 78px 88px;
+}
+
+.icofor .curso{
+    margin-left: 0px;
+    top: 30px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.icofor .cuando-donde{
+    margin-left: 0px;
+    top: 30px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* --- EXPERIENCIA PROFESIONAL --- */
+.experiencia{
+    width: 1136px;
+    height: 943px;
+    font-family: "Raleway";
+    margin: 0 auto;
+    padding: 32px 0px;
+    clear: both;
+}
+
+.experiencia h3{
+    text-align: center;
+}
+
+.experiencia img{
+    width: 752px;
+    height: 406px;
+    padding: 32px 0px;    
+}
+
+.experiencia #img-codigo{
+    float: left;
+    margin-right: 16px;
+}
+
+.experiencia #img-ahorcado{
+    float: right;
+}
+
+.proyecto-uno li{
+    margin-top: 180px;
+}
+
+.proyecto-dos li{
+    margin-top: 340px;
+}
+
+.acerca{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.organismo{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+
+#repositorio{
+    width: 116px;
+    height: 51px;
+    background-color: #F5F5F5;
+    color:#2A7AE4;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #2A7AE4;
+    margin-right: 8px;
+}
+
+#repositorio a{
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+#repositorio:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+#demo{
+    width: 105px;
+    height: 51px;
+    color: white;
+    background-color: #2A7AE4;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+#demo a{
+    color: white;
+    text-decoration: none;
+}
+
+#demo:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+/* --- CONTACTO --- */
+
+.contacto{
+    width: 1136px;
+    height: 628px;
+    font-family: "Raleway";
+    background-color: #EAF2FD;
+    margin: 0 auto;
+    padding: 82px 106px;
+    
+}
+
+.contacto img{
+    float: left;
+    width: 464px;
+    height: 664px;
+    margin-right: 16px;
+}
+
+.input-con{
+    display: block;
+    width: 636px;
+    height: 56px;
+    margin-top: 32px;
+    border: none;
+    border-bottom: 1px solid #C8C8C8;
+    padding: 0px 10px 0px 10px;
+}
+
+.containerInput--invalid .input-con{
+    border-bottom: 2px solid red;
+}
+
+.messageError{
+    color:red;
+    font-size: 12px;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+#nombre::placeholder{
+    color: #A2A2A2;
+    font-size: 12px;
+}
+
+#correo::placeholder{
+    color: #2A7AE4;
+    font-size: 12px;
+}
+
+#asunto::placeholder{
+    font-size: 16px;
+}
+
+#mensaje{
+    height: 133px;
+}
+
+#mensaje::placeholder{
+    font-size: 16px;
+}
+
+.contacto h4{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 38px;
+    margin-bottom: 8px;
+}
+
+.contacto p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    margin-bottom: 32px;
+}
+
+#enviar{
+    width: 144px;
+    height: 51px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    margin-top: 32px;
+}
+
+
+/* --- FOOTER --- */
+
+footer{
+    width: 1136px;
+    height: 102px;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 0px 106px;
+    font-family: "Raleway";
+    font-weight: 500;
+    text-align: center;
+    line-height: 19px;
+}
+
+footer p{
+    padding: 29px 0px;
+}
+
+
+@media screen and (max-width:430px) {
+
+    body{
+        margin-left: 16px;
+        margin-right: 16px;   
+        height: auto;
+    }
+
+    /* --- HEADER MOBILE --- */
+    .caja{
+        width: auto;
+        height: 56px;
+    }
+
+    .encabezado{
+        top: 18.5px;
+    }
+    
+    nav{
+        position: absolute;
+        top: 22px;
+        left: 204px;
+    }
+
+    nav li:nth-child(-n+5){
+        display: none;   
+    }
+    
+    #email{
+        vertical-align: middle;
+        font-weight: normal;
+        font-size: 10px;
+    }
+
+    /* --- PRESENTACION MOBILE ---*/
+
+    .presentacion{
+        width: auto;
+        height: 308px;
+    }
+
+    .lista-presentacion li{
+        padding: 16px 0px;
+        margin-right: 16px;
+    }
+
+    .imagen-perfil{
+        height: 98px;
+        width: 98px;
+        float: none;
+        margin-top: 16px;
+    }
+
+    #nombre-actividad{
+        font-size: 22px;
+        line-height: 22px;
+    }
+
+    #profesion-actividad{
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 16px;
+    }
+
+    .links-redes{
+        width: auto;
+        height: 16px;
+        line-height: 16px;
+        position: relative;
+        top: auto;
+        left: 0px;
+    }
+
+    .redes p{
+        font-size: 14px;
+    }
+
+    /* --- SOBRE MI MOBILE --- */
+    .sobre-mi{
+        width:auto;
+        margin: 0px -16px 0px -16px;
+        padding: 16px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    .sobre-mi p{
+        width: auto;
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+
+    #firma{
+        transform: scale3d(1, 1, 1);
+    }
+
+    /* --- SKILLS y HOBBIES MOBILE --- */
+
+    .skills{
+        width: auto;     
+        height: 508px;
+        padding: 16px auto;
+    }
+
+    .hobbies{
+        width: auto;     
+        height: 524px;
+    }
+
+    .iconos{
+        width: 156px;
+        height: 118px;
+        margin: 16px 8px;
+    }
+
+    .iconos img{
+        margin-top: 38px;
+        margin-left: -100px;
+    }
+
+    /* --- FORMACION ACADEMICA MOBILE --- */
+    .formacion{
+        width: auto;
+        height: 600px;
+        padding: 32px 16px;
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+
+    .icofor{
+        width: 296px;
+        height: 118px;
+    }
+
+    .icofor img{
+        width: 70px;
+        height: 50px;
+        padding: 30px 106px;
+    }
+
+    .icofor .curso{
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .icofor .cuando-donde{
+        font-size: 14px;
+        margin-top: 8px;
+    }
+
+    /* --- EXPERIENCIA PROFESIONAL MOBILE --- */
+    .experiencia{
+        width: auto;
+        height: 646px;
+    }
+
+    .experiencia h3{
+        margin-bottom: 0px;
+    }
+
+    .experiencia img{     
+        padding: 0 32px;
+        margin: 16px 32px 0px 32px;
+        margin-left: 0px;
+        width: 19em;
+        height: 10em;
+    }
+
+    .experiencia #img-codigo{
+        float:none;
+        margin-right: 0px;
+    }
+    
+    .experiencia #img-ahorcado{
+        float: none;
+        margin-top: 64px;
+    }
+
+    .proyecto-uno li{
+        margin-top: -16px;
+    }
+    
+    .proyecto-dos li{
+        margin-top: 0px;
+    }
+
+    .acerca{
+        font-size: 16px;
+        margin: 16px 32px 8px 32px;
+        font-weight: 700;
+        line-height: 18.78px;
+        margin-bottom: 8px;
+    }
+    
+    .organismo{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.44px;
+        margin: 0px 32px 8px 32px;
+    }
+
+    #repositorio{
+        margin-left: 32px;
+        width: 108px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #demo{
+        width: 108px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    /* --- CONTACTO MOBILE --- */
+    .contacto{
+        width: auto;
+        height: 630px;
+        padding: 32px;
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+    
+    .contacto img{
+        display: none;
+    }
+    
+    .input-con{
+        width: 296px;
+        height: 56px;
+        margin-left: 16px;
+        padding-left: 8px;
+        margin-top: 32px;
+        
+    }
+
+    .messageError{
+        position: absolute;
+        margin-left: 24px;        
+    }
+
+    .contacto h4{
+        font-size: 22px;
+        line-height: 26px;
+        margin-left: 16px;
+    }
+    
+    .contacto p{
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: 16px;
+    }
+    
+    #enviar{
+        width: 133px;
+        height: 40px;
+        font-size: 14px;
+        margin-left: 16px;
+    }
+
+    /* --- FOOTER MOBILE --- */
+    footer{
+        width: auto;
+        height: 102px;
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+
+
+}
