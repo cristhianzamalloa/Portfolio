@@ -1,0 +1,2 @@
+- Los links del menu no estan llevando a las secciones, debido a que las secciones no tienen el ID.
+- El mensaje de error de Mensajes menciona 50 caracteres, cuando realmente es 300 caracteres.
